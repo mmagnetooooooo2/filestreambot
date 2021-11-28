@@ -18,7 +18,6 @@ kg18="ago"
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
     return web.json_response({"status": "running",
-                              "maintained_by": "Adarsh Goel @Codexmania",
                               "uptime": get_readable_time(time.time() - StartTime),
                               "Bot was last updated": get_readable_time(time.time()),
                               "ago":"",
@@ -26,7 +25,7 @@ async def root_route_handler(request):
                               "Bot Version":"3.0.1"})
 
 
-@routes.get("/watch/{message_id}")
+@routes.get("/izle/{message_id}")
 async def stream_handler(request):
     try:
         message_id = int(request.match_info['message_id'])
@@ -35,7 +34,7 @@ async def stream_handler(request):
         logging.error(e)
         raise web.HTTPNotFound
         
-@routes.get("/download/{message_id}")
+@routes.get("/indir/{message_id}")
 @routes.get("/{message_id}")
 async def old_stream_handler(request):
     try:
