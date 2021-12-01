@@ -70,7 +70,7 @@ async def start(b, m):
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Sahip', url=f"https://t.me/{Var.OWNER_USERNAME}"),
-                                                                                       InlineKeyboardButton('Follow ', url='https://t.me/quickwaste') ] ]  ) )
+                                                                                       InlineKeyboardButton('Kanalımı Takip Et', url='https://t.me/quickwaste') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
