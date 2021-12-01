@@ -70,7 +70,7 @@ async def start(b, m):
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Sahip', url=f"https://t.me/{Var.OWNER_USERNAME}"),
-                                                                                       InlineKeyboardButton('Follow ', url='https://github.com/winstondarkblue') ] ]  ) )
+                                                                                       InlineKeyboardButton('Follow ', url='https://t.me/quickwaste') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
@@ -152,7 +152,7 @@ async def start(b, m):
 
 <b>🚸 Not : Bağlantılar Süresizdir ! </b>
 
-<i>@filmplatosu</i>"""
+<i>@quickwaste</i>"""
 
         await m.reply_text(
             text=msg_text.format(file_name, file_size, online_link, stream_link),
@@ -198,7 +198,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Birşeyler yanlış gitti !__[Sahip](https://t.me/hydrathalles).",
+                text="__Birşeyler yanlış gitti !__[Sahip](https://t.me/mmagneto).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -209,8 +209,8 @@ async def help_handler(bot, message):
             
           reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🏵 SAHİP", url="https://t.me/hydrathalles")],
-                [InlineKeyboardButton("🍺 TAKİP ET", url="https://github.com/winstondarkblue")]
+                [InlineKeyboardButton("🏵 SAHİP", url="https://t.me/mmagneto")],
+                [InlineKeyboardButton("🍺 TAKİP ET", url="https://t.me/quickwaste")]
             ]
         )
     )
