@@ -4,7 +4,7 @@ import os
 from os import getenv, environ
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv('config.env')
 
 
 class Var(object):
