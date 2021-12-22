@@ -1,5 +1,5 @@
 {
-  "name": "Adarsh-FileStreamBot",
+  "name": "mmagnetoFileStreamBot",
   "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @adarsh_status_bot",
   "keywords": [
       "telegram",
@@ -15,7 +15,7 @@
     ],
   "repository": "https://github.com/code-x-mania/FileStreamBot/",
   "success_url": "/",
-  "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
+  "logo": "https://telegra.ph/file/e049ac49a08fa098ac406.jpg",
   "website": "http://adarsh.tk",
   "env": {
       "ENV": {
