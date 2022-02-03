@@ -70,7 +70,7 @@ async def start(b, m):
             parse_mode="HTML",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Sahip', url=f"https://t.me/{Var.OWNER_USERNAME}"),
-                                                                                       InlineKeyboardButton('Kanalımı Takip Et', url='https://t.me/quickwaste') ] ]  ) )
+                                                                                       InlineKeyboardButton('Grubuma katıl', url='https://t.me/anagrupp') ] ]  ) )
                                                                                        
                                                                                        
                                                                             
@@ -210,7 +210,7 @@ async def help_handler(bot, message):
           reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("🏵 SAHİP", url="https://t.me/mmagneto")],
-                [InlineKeyboardButton("🍺 TAKİP ET", url="https://t.me/quickwaste")]
+                [InlineKeyboardButton("🍺 TAKİP ET", url="https://t.me/anagrupp")]
             ]
         )
     )
