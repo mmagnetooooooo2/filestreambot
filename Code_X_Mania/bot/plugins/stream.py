@@ -101,7 +101,7 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>🚸 Not : Bağlantılar Süresizdir  </b>
 
-<i>© @quickwaste</i>"""
+<i>© @anagrupp</i>"""
 
         await log_msg.reply_text(text=f"**Tarafından :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Kullanıcı ɪᴅ :** `{m.from_user.id}`\n**İndirme Linki :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
         await m.reply_text(
